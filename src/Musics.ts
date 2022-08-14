@@ -14,7 +14,7 @@ export const Musics = [
   {
     title: 'Ice on My Neck',
     artist: 'VLXX',
-    src: '/static/media/audio2.fc062a0d43f9ed7e2257.mp3',
+    src: 'https://30.filelu.com/d/wz3m7wdnjqqnjjtanom4k7n2tz4gijf27zkxc2574xfmyenj2hmikpbsgmm6a23myydciecl/audio2.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -26,7 +26,7 @@ export const Musics = [
   {
     title: 'Drug',
     artist: 'Xxtasy (ft. VLXX)',
-    src: '/static/media/audio3.24c691fc1ab4b22d6bf5.mp3',
+    src: 'https://30.filelu.com/d/wz3mbwdnjqqnjjtanom4u35wr3nusgumltq2gvowngxfyg6e57beoxmvt7vmtvzkr67lshvg/audio3.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -38,7 +38,7 @@ export const Musics = [
   {
     title: 'Evimə apar',
     artist: 'VLXX (ft. Xxtasy)',
-    src: '/static/media/audio4.f1d474b76646857517a4.mp3',
+    src: 'https://30.filelu.com/d/wz3ntwdnjqqnjjtanom5437fzszqpqe33y2idqtb436caa6ytxblnyyan3yxyj4wog2bjxdx/audio4.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -50,7 +50,7 @@ export const Musics = [
   {
     title: 'Yelləncək',
     artist: 'VLXX (ft. Xxtasy)',
-    src: '/static/media/audio5.8ce0fe25dede772aad0a.mp3',
+    src: 'https://30.filelu.com/d/wz3nxwdnjqqnjjtanom54i7otpag6hr4ch46xwbownf7w3ve6fxlklstuwxfffspwbsm72xd/audio5.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -62,7 +62,7 @@ export const Musics = [
   {
     title: 'London',
     artist: 'Xxtasy',
-    src: '/static/media/audio6.8e6fe8b21ad5f4c3f7c4.mp3',
+    src: 'https://30.filelu.com/d/wz3nzwdnjqqnjjtanom4u653znqwssyxt4cq5hk42d2wybiibr46kzqzoax23t2minxcdkfz/audio6.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -74,7 +74,7 @@ export const Musics = [
   {
     title: 'Get',
     artist: 'VLXX',
-    src: '/static/media/audio7.0856e37e298ceec7bbe0.mp3',
+    src: 'https://30.filelu.com/d/wz3n3wdnjqqnjjtanomym45xraz3hxqsauhxho3lg6ams3mcpcf5aixjfxwlgvu525xacqv7/audio7.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -86,7 +86,7 @@ export const Musics = [
   {
     title: 'De mənə',
     artist: 'VLXX (ft. Xxtasy)',
-    src: '/static/media/audio8.bb69a4b5f7598a4b50dc.mp3',
+    src: 'https://32.filelu.com/d/rb3n7wdnjqqnjjtanom4uyp2setklquezfcivdgcck2mr73mah4bmr5xiijgu3okl3n4uemc/audio8.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -98,7 +98,7 @@ export const Musics = [
   {
     title: 'Hüzur (demo)',
     artist: 'VLXX',
-    src: '/static/media/audio9.850c7fb212ca28482161.mp3',
+    src: 'https://32.filelu.com/d/rb3nbwdnjqqnjjtanomy24f2y4essnknyz557frqwfke252aa2csdz6sxwsrwenjzmeu5byy/audio9.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -110,7 +110,7 @@ export const Musics = [
   {
     title: 'Maşallah',
     artist: 'Xxtasy x VLXX',
-    src: '/static/media/audio10.5b8456bfe40beb4791cb.mp3',
+    src: 'https://32.filelu.com/d/rb3nfwdnjqqnjjtanom4oz7btj6n4rei3anyeldxb27clqr2xmgkyeryp23hdj4o6bug2cmo/audio10.mp3',
     progress: 0,
     length: 0,
     youtube: 'https://www.youtube.com/watch?v=48YpvVvAEDc',
@@ -122,7 +122,7 @@ export const Musics = [
   {
     title: 'Passion',
     artist: 'Xxtasy x SVBHI x Rasheed',
-    src: '/static/media/audio11.474fbb80dfce4e4e0073.mp3',
+    src: 'https://32.filelu.com/d/rb3nhwdnjqqnjjtanom4kyvttdbpnslbpl5ao2yhpw35vs4ubdkbn5cqhitqyxsy5dbreaqc/audio11.mp3',
     progress: 0,
     length: 0,
     youtube: 'https://www.youtube.com/watch?v=70JQzIs4Ve0',
@@ -135,7 +135,7 @@ export const Musics = [
   {
     title: 'Vice City',
     artist: 'Tibu (ft. Rasheed, Xxtasy)',
-    src: '/static/media/audio12.931c76a6ec20520a3b0a.mp3',
+    src: 'https://32.filelu.com/d/rb3njwdnjqqnjjtanom5ijvsy5ih7sr4qvdoufvuibqpmnehq34ffvviovfjstycenhormgf/audio12.mp3',
     progress: 0,
     length: 0,
     youtube: 'https://www.youtube.com/watch?v=83o9iYDCLQ0',
@@ -148,7 +148,7 @@ export const Musics = [
   {
     title: 'Telefona bax (demo)',
     artist: 'VLXX x Xxtasy',
-    src: '/static/media/audio13.fbc3645d3cb7bea90da0.mp3',
+    src: 'https://32.filelu.com/d/rb3nlwdnjqqnjjtanom5mivwt2xberw7p66czc5b3tencrmlkvefsixt5zgr2l55h2nbtkn3/audio13.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -160,7 +160,7 @@ export const Musics = [
   {
     title: 'Ulduzlararası (demo)',
     artist: 'VLXX x Xxtasy',
-    src: '/static/media/audio14.c3b38207a00e15b4e915.mp3',
+    src: 'https://32.filelu.com/d/rb3nnwdnjqqnjjtanom4qlxltnwjdftk3n5mzppjs7kyweutdaaewrnqytcr6ibojeyjcdsz/audio14.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -172,7 +172,7 @@ export const Musics = [
   {
     title: 'Next Location',
     artist: 'VLXX',
-    src: '/static/media/audio15.40165bf55875e3f1888b.mp3',
+    src: 'https://32.filelu.com/d/rb3npwdnjqqnjjtanom52zpqsghrufo65rxexnxmpxnmkb2pot34cmvrdocrmavqzcf2ar5q/audio15.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -184,7 +184,7 @@ export const Musics = [
   {
     title: 'Kim var orda? (demo)',
     artist: 'VLXX x Nat',
-    src: '/static/media/audio16.340dd0ed52748afa35c4.mp3',
+    src: 'https://32.filelu.com/d/rb3krwdnjqqnjjtanom5s35uspwj27tuzdyfmm2prksoytys3treuctpa3btn27b3hi2rc53/audio16.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -196,7 +196,7 @@ export const Musics = [
   {
     title: 'Bad Wave (demo)',
     artist: 'Xxtasy x VLXX',
-    src: '/static/media/audio17.9daf964024485db1bb5b.mp3',
+    src: 'https://32.filelu.com/d/rb3ktwdnjqqnjjtanom5e7xgyzlguf6oa67vdxpylqgsvavfezpild44rm6cr4aekzsdczvj/audio17.mp3',
     progress: 0,
     length: 0,
     youtube: '',
