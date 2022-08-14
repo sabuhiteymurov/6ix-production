@@ -1,0 +1,202 @@
+/***************************/
+
+/* GENERAL REUSABLE COMPONENTS */
+
+/***************************/
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+
+  @include respond(big-tab) {
+    padding: 0 4.4rem;
+  }
+  @include respond(med-tab) {
+    padding: 0 3.2rem;
+  }
+}
+
+.display-desktop {
+  @include respond(mini-laptop) {
+    display: block;
+  }
+
+  @include respond(tab) {
+    display: none !important;
+  }
+
+  @include respond(big-desktop) {
+    display: block;
+  }
+}
+
+.display-mobile {
+  display: none;
+  @include respond(mini-laptop) {
+    display: none;
+  }
+
+  @include respond(tab) {
+    display: block;
+  }
+
+  @include respond(big-desktop) {
+    display: none;
+  }
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 12.8rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  @include respond(phone) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* .grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);}
+ */
+
+.grid--center-v {
+  align-items: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+  @include respond(big-tab) {
+    font-size: 4.8rem;
+  }
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3.2rem;
+  margin-bottom: 3.2rem;
+  line-height: 1.2;
+}
+
+.subheading {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #47646f;
+  text-transform: uppercase;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  background: none;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+  display: inline-block;
+  padding: 2.4rem 4.4rem;
+  border-radius: 100px;
+  border-top-right-radius: 0;
+
+  /*  Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original 'state' */
+  transition: all 0.3s;
+}
+
+.btn--full {
+  color: #333;
+  background-color: #f4c545;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #f3be30;
+}
+
+.highlight {
+  box-shadow: inset 0 -1.5rem 0 rgba(51, 83, 95, 0.55);
+  color: inherit;
+}
+
+.highlight-sm {
+  box-shadow: inset 0 -1rem 0 rgba(51, 83, 95, 0.55);
+  color: inherit;
+}
+
+.longdash {
+  width: 100%;
+  max-width: 4.3rem;
+  min-height: 0.25rem;
+  margin-right: 2rem;
+  background-color: #47646f;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(243, 191, 48, 0.5);
+}
+
+.btn--close-signin:focus,
+.btn--close-signup:focus,
+.sign-in-form input:focus,
+.s-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+*::selection {
+  color: #fff;
+  text-shadow: none;
+}
+/* HELPER / SETTINGS CLASSES */
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}

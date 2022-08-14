@@ -1,0 +1,250 @@
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4.8rem;
+
+  &-background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(1.5px);
+  }
+
+  &-title {
+    padding-top: 8rem;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  &-player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 38vw;
+    box-shadow: $dark-shadow;
+  }
+}
+
+.music-player-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  background-image: url('../img/player-background.png');
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: relative;
+
+  &_play {
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin: 3.2rem;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    .play-icon {
+      height: 6.4rem;
+    }
+  }
+
+  &-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+
+    .music-artist {
+      color: $color-white-2;
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin-bottom: 0.4rem;
+    }
+    .music-title {
+      color: $color-white;
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-bottom: 5.4rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .music-forward-backward_button {
+      display: flex;
+      position: absolute;
+      left: -3.5px;
+      top: 5.3rem;
+      font-size: 3rem;
+      color: $color-white;
+      cursor: pointer;
+      .backward {
+        margin-right: 1.2rem;
+        transform: rotate(180deg);
+      }
+    }
+    .music-player-container_time {
+      font-size: 1.4rem;
+      color: $color-white-2;
+    }
+  }
+}
+
+.navigation {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background-color: $color-gray-4;
+  margin-bottom: 1px;
+
+  &_wrapper {
+    height: 5px;
+    min-width: 100%;
+    background-color: rgba(119, 119, 119, 0.781);
+    border-radius: 30px;
+    cursor: pointer;
+    border-radius: 3rem;
+  }
+
+  .seek_bar {
+    width: 50%;
+    height: 100%;
+    background-color: orangered;
+    border-radius: 3rem;
+  }
+}
+
+.music-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 30rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  // CUSTOM SCROLLBAR
+  &::-webkit-scrollbar {
+    width: 0;
+    cursor: pointer;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $color-white;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $color-gray-3;
+    border: 0.25rem solid $color-gray-3;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    transition: all 0.2s;
+
+    &:hover {
+      background: $color-gray-4;
+      border: 0.25rem solid $color-gray-4;
+    }
+  }
+  .music {
+    display: flex;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 1.8rem 2.4rem;
+    border-bottom: 1px solid $color-tertiary-lighter-2;
+    cursor: pointer;
+    &:hover,
+    &:active {
+      background-color: #252525;
+    }
+
+    &-title-container {
+      width: 60%;
+    }
+
+    &-title {
+      color: $color-white;
+      font-size: 1.6rem;
+      margin-bottom: 0.8rem;
+      font-weight: 600;
+    }
+    &-artist {
+      color: $color-white-2;
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+
+    &-icon-container {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      width: 30%;
+    }
+    a {
+      &:active,
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    &-icon {
+      font-size: 1.8rem;
+      color: $color-white-2;
+      transition: all 0.2s;
+
+      &:active,
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    // .icon-spotify {
+    //   font-size: 1.7rem;
+    //   &:hover {
+    //     color: #40c057;
+    //   }
+    // }
+    // .icon-youtube {
+    //   &:hover {
+    //     color: red;
+    //   }
+    // }
+    // .icon-soundcloud {
+    //   &:hover {
+    //     color: #fd7e14;
+    //   }
+    // }
+    // .icon-itunes {
+    //   &:hover {
+    //     color: $color-white;
+    //   }
+    // }
+
+    &-duration {
+      font-size: 1.4rem;
+      color: $color-white-2;
+      padding-left: 2.2rem;
+    }
+  }
+}
+
+.footer-title {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: $color-white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,98 @@
+// MEDIA QUERY MANAGER
+/*
+breakpoint arguments:
+- mini-phone
+- med-phone
+- phone 
+- tab
+- med-tab
+- big-tab
+- mini-laptops
+- laptops
+- big desktops
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == smallest-phone {
+    // 368px
+    @media (max-width: 23em) {
+      @content;
+    }
+  }
+  @if $breakpoint == mini-phone {
+    // 400px
+    @media (max-width: 25em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == med-phone {
+    // 500px
+    @media (max-width: 31.25em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == phone {
+    // 600px
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == min-tab {
+    // 700px
+    @media (max-width: 43.75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tab {
+    // 800px
+    @media (max-width: 50em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == med-tab {
+    // 992px
+    @media (max-width: 62em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == big-tab {
+    // 1100px
+    @media (max-width: 68.75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == mini-laptop {
+    // 1248px
+    @media (max-width: 78em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == min-desktop {
+    // 1400px
+    @media (max-width: 87.5em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == med-desktop {
+    // 1548px
+    @media (max-width: 96.75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == big-desktop {
+    // 1920px
+    @media (min-width: 120em) {
+      @content;
+    }
+  }
+}
