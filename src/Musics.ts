@@ -2,7 +2,7 @@ export const Musics = [
   {
     title: 'FCK IT',
     artist: 'VLXX x Xxtasy',
-    src: '/static/media/audio1.a051a7f11ad34a2164cd.mp3',
+    src: 'https://soundcloud.com/yusif-h-seynzad/audio1?si=af410019556c4268bee50dedd70cb926&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
     progress: 0,
     length: 0,
     youtube: '',
