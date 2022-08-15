@@ -16,7 +16,8 @@ const MusicList: React.FC<{
         setCurrentMusic(music);
         // @ts-ignore
         audioEl.current.currentTime = 0;
-        setIsPlaying(!isPlaying);
+        setIsPlaying(true);
+        audioEl.current.play();
       }}
     >
       <div className='music-title-container'>

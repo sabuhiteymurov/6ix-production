@@ -62,26 +62,28 @@ function App() {
     const index = musics.findIndex((m) => m.title === currentMusic.title);
     if (index === 0) {
       setCurrentMusic(musics[musics.length - 1]);
-      setIsPlaying(true);
     } else {
       setCurrentMusic(musics[index - 1]);
-      setIsPlaying(true);
     }
+    setIsPlaying(true);
     // @ts-ignore
     audioEl.current.currentTime = 0;
+    // @ts-ignore
+    audioEl.current.play();
   };
 
   const skipNext = () => {
     const index = musics.findIndex((m) => m.title === currentMusic.title);
-    setIsPlaying(!isPlaying);
     if (index === musics.length - 1) {
-      console.log(index);
       setCurrentMusic(musics[0]);
     } else {
       setCurrentMusic(musics[index + 1]);
     }
+    setIsPlaying(true);
     // @ts-ignore
     audioEl.current.currentTime = 0;
+    // @ts-ignore
+    audioEl.current.play();
   };
 
   const musicDurationMinutes = '0' + Math.floor(currentTime / 60) + ':';

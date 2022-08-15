@@ -2,7 +2,7 @@ export const Musics = [
   {
     title: 'FCK IT',
     artist: 'VLXX x Xxtasy',
-    src: 'https://30.filelu.com/d/wz3m7wdnjqqnjjtanom4k7n2tz4gijf27zkxc2574xfmyenj2hmikpbsgmm6a23myydciecl/audio2.mp3',
+    src: 'https://beardbarnmusicbucket.s3.amazonaws.com/The+Wild+Horse',
     progress: 0,
     length: 0,
     youtube: '',
@@ -14,7 +14,7 @@ export const Musics = [
   {
     title: 'Ice on My Neck',
     artist: 'VLXX',
-    src: 'https://30.filelu.com/d/wz3m7wdnjqqnjjtanom4k7n2tz4gijf27zkxc2574xfmyenj2hmikpbsgmm6a23myydciecl/audio2.mp3',
+    src: 'https://beardbarnmusicbucket.s3.amazonaws.com/The+Wild+Horse',
     progress: 0,
     length: 0,
     youtube: '',
