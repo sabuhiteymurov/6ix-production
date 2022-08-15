@@ -2,7 +2,7 @@ export const Musics = [
   {
     title: 'FCK IT',
     artist: 'VLXX x Xxtasy',
-    src: 'https://23.filelu.com/d/x53mrwdnjqqnjjtanomy2zxaza6ayt55sferwnsl5g6ummq3tk3kgjff7jla5bzmi6h5tpi4/audio1.mp3',
+    src: 'https://drive.google.com/uc?export=download&id=yOGkrh3-n0P7jF36FeYTja3zsBSfQevZ/',
     progress: 0,
     length: 0,
     youtube: '',

@@ -24,16 +24,29 @@ const MusicList: React.FC<{
         <div className='music-artist'>{music.artist}</div>
       </div>
       <div className='music-icon-container'>
-        <a href={music.youtube}>
+        <a
+          href={music.youtube ? music.youtube : '#'}
+          aria-disabled={music.youtube ? false : true}
+        >
           <AiFillYoutube className='music-icon icon-youtube' />
         </a>
-        <a href={music.spotify}>
+
+        <a
+          href={music.spotify ? music.spotify : '#'}
+          aria-disabled={music.spotify ? false : true}
+        >
           <FaSpotify className='music-icon icon-spotify' />
         </a>
-        <a href={music.itunes}>
+        <a
+          href={music.itunes ? music.itunes : '#'}
+          aria-disabled={music.itunes ? false : true}
+        >
           <AiFillApple className='music-icon icon-itunes' />
         </a>
-        <a href={music.soundcloud}>
+        <a
+          href={music.soundcloud ? music.soundcloud : '#'}
+          aria-disabled={music.soundcloud ? false : true}
+        >
           <GrSoundcloud className='music-icon icon-soundcloud' />
         </a>
       </div>

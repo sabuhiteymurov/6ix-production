@@ -13,7 +13,7 @@
     width: 100%;
     height: 110%;
     z-index: -1;
-    // filter: blur(1.5px);
+    filter: blur(1px);
   }
 
   &-title {
@@ -162,8 +162,10 @@
     }
   }
   .music {
+    position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #2d2d2d;
     padding: 1.8rem 2.4rem;
     border-bottom: 1px solid $color-tertiary-lighter-2;
@@ -193,7 +195,8 @@
       display: flex;
       align-items: center;
       gap: 1rem;
-      width: 30%;
+      position: absolute;
+      right: 12rem;
     }
     a {
       &:active,
