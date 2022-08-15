@@ -84,6 +84,13 @@ function App() {
     audioEl.current.currentTime = 0;
   };
 
+  const musicDurationMinutes = '0' + Math.floor(currentTime / 60) + ':';
+  let musicDurationSeconds;
+  if (Math.floor(currentTime % 60) < 10)
+    musicDurationSeconds = '0' + Math.floor(currentTime % 60);
+  else {
+    musicDurationSeconds = Math.floor(currentTime % 60);
+  }
   return (
     <>
       <main className='home'>
@@ -121,10 +128,7 @@ function App() {
               </div>
               <div className='music-player-container_time'>
                 <span className='music-player-container_currenttime'>
-                  {'0' +
-                    Math.floor(currentTime / 60) +
-                    ':' +
-                    Math.floor(currentTime % 60)}
+                  {musicDurationMinutes + musicDurationSeconds}
                 </span>
                 <span className='music-player-container_separator'> / </span>
                 <span className='music-player-container_duration'>
