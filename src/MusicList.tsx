@@ -15,9 +15,12 @@ const MusicList: React.FC<{
       onClick={() => {
         setCurrentMusic(music);
         // @ts-ignore
-        audioEl.current.currentTime = 0;
         setIsPlaying(true);
-        audioEl.current.play();
+        audioEl.current.currentTime = 0;
+        setTimeout(() => {
+          // @ts-ignore
+          audioEl.current.play();
+        }, 1000);
       }}
     >
       <div className='music-title-container'>

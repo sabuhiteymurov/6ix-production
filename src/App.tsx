@@ -69,7 +69,10 @@ function App() {
     // @ts-ignore
     audioEl.current.currentTime = 0;
     // @ts-ignore
-    audioEl.current.play();
+    setTimeout(() => {
+      // @ts-ignore
+      audioEl.current.play();
+    }, 500);
   };
 
   const skipNext = () => {
@@ -82,8 +85,11 @@ function App() {
     setIsPlaying(true);
     // @ts-ignore
     audioEl.current.currentTime = 0;
-    // @ts-ignore
-    audioEl.current.play();
+
+    setTimeout(() => {
+      // @ts-ignore
+      audioEl.current.play();
+    }, 500);
   };
 
   const musicDurationMinutes = '0' + Math.floor(currentTime / 60) + ':';
@@ -93,6 +99,7 @@ function App() {
   else {
     musicDurationSeconds = Math.floor(currentTime % 60);
   }
+
   return (
     <>
       <main className='home'>

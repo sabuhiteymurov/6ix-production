@@ -2,7 +2,7 @@ export const Musics = [
   {
     title: 'FCK IT',
     artist: 'VLXX x Xxtasy',
-    src: 'https://beardbarnmusicbucket.s3.amazonaws.com/The+Wild+Horse',
+    src: 'https://download1489.mediafire.com/m7sn24ffuofg/visam6ffxr45s6h/audio1.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -14,7 +14,7 @@ export const Musics = [
   {
     title: 'Ice on My Neck',
     artist: 'VLXX',
-    src: 'https://beardbarnmusicbucket.s3.amazonaws.com/The+Wild+Horse',
+    src: 'https://download1482.mediafire.com/iqsetsv2yu0g/pnzhwa61q7xxut4/audio2.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -26,7 +26,7 @@ export const Musics = [
   {
     title: 'Drug',
     artist: 'Xxtasy (ft. VLXX)',
-    src: 'https://30.filelu.com/d/wz3mbwdnjqqnjjtanom4u35wr3nusgumltq2gvowngxfyg6e57beoxmvt7vmtvzkr67lshvg/audio3.mp3',
+    src: 'https://download843.mediafire.com/qqblmczsok9g/jw4soy43eew4hu9/audio3.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -38,7 +38,7 @@ export const Musics = [
   {
     title: 'Evimə apar',
     artist: 'VLXX (ft. Xxtasy)',
-    src: 'https://30.filelu.com/d/wz3ntwdnjqqnjjtanom5437fzszqpqe33y2idqtb436caa6ytxblnyyan3yxyj4wog2bjxdx/audio4.mp3',
+    src: 'https://download938.mediafire.com/rw71qghu2f3g/s5n78ncnexifyiv/audio4.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -50,7 +50,7 @@ export const Musics = [
   {
     title: 'Yelləncək',
     artist: 'VLXX (ft. Xxtasy)',
-    src: 'https://30.filelu.com/d/wz3nxwdnjqqnjjtanom54i7otpag6hr4ch46xwbownf7w3ve6fxlklstuwxfffspwbsm72xd/audio5.mp3',
+    src: 'https://download1482.mediafire.com/dj5dcrylgyzg/ku8w1q3l2anksyr/audio5.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -62,7 +62,7 @@ export const Musics = [
   {
     title: 'London',
     artist: 'Xxtasy',
-    src: 'https://30.filelu.com/d/wz3nzwdnjqqnjjtanom4u653znqwssyxt4cq5hk42d2wybiibr46kzqzoax23t2minxcdkfz/audio6.mp3',
+    src: 'https://download1339.mediafire.com/0v0touv1wfcg/haop1v3yu0ehqyj/audio6.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -74,7 +74,7 @@ export const Musics = [
   {
     title: 'Get',
     artist: 'VLXX',
-    src: 'https://30.filelu.com/d/wz3n3wdnjqqnjjtanomym45xraz3hxqsauhxho3lg6ams3mcpcf5aixjfxwlgvu525xacqv7/audio7.mp3',
+    src: 'https://download1487.mediafire.com/ljsd5vlym3ng/bbl3qn28pyae3r6/audio7.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -86,7 +86,7 @@ export const Musics = [
   {
     title: 'De mənə',
     artist: 'VLXX (ft. Xxtasy)',
-    src: 'https://32.filelu.com/d/rb3n7wdnjqqnjjtanom4uyp2setklquezfcivdgcck2mr73mah4bmr5xiijgu3okl3n4uemc/audio8.mp3',
+    src: 'https://download1490.mediafire.com/54x5zk6igmwg/0fn2m5ht4zbix9l/audio8.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -98,7 +98,7 @@ export const Musics = [
   {
     title: 'Hüzur (demo)',
     artist: 'VLXX',
-    src: 'https://32.filelu.com/d/rb3nbwdnjqqnjjtanomy24f2y4essnknyz557frqwfke252aa2csdz6sxwsrwenjzmeu5byy/audio9.mp3',
+    src: 'https://download1490.mediafire.com/lvqnz8f9q8ng/d72i93s9n142meh/audio9.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -110,7 +110,7 @@ export const Musics = [
   {
     title: 'Maşallah',
     artist: 'Xxtasy x VLXX',
-    src: 'https://32.filelu.com/d/rb3nfwdnjqqnjjtanom4oz7btj6n4rei3anyeldxb27clqr2xmgkyeryp23hdj4o6bug2cmo/audio10.mp3',
+    src: 'https://download1980.mediafire.com/1s7l5abjeo1g/c93uslhzu8hd0dc/audio10.mp3',
     progress: 0,
     length: 0,
     youtube: 'https://www.youtube.com/watch?v=48YpvVvAEDc',
@@ -122,7 +122,7 @@ export const Musics = [
   {
     title: 'Passion',
     artist: 'Xxtasy x SVBHI x Rasheed',
-    src: 'https://32.filelu.com/d/rb3nhwdnjqqnjjtanom4kyvttdbpnslbpl5ao2yhpw35vs4ubdkbn5cqhitqyxsy5dbreaqc/audio11.mp3',
+    src: 'https://download943.mediafire.com/72ms3ajo66gg/qnork3tr2a57v6f/audio11.mp3',
     progress: 0,
     length: 0,
     youtube: 'https://www.youtube.com/watch?v=70JQzIs4Ve0',
@@ -135,7 +135,7 @@ export const Musics = [
   {
     title: 'Vice City',
     artist: 'Tibu (ft. Rasheed, Xxtasy)',
-    src: 'https://32.filelu.com/d/rb3njwdnjqqnjjtanom5ijvsy5ih7sr4qvdoufvuibqpmnehq34ffvviovfjstycenhormgf/audio12.mp3',
+    src: 'https://download1074.mediafire.com/nfyjv56q06ng/shs7m85hqnwkmj7/audio12.mp3',
     progress: 0,
     length: 0,
     youtube: 'https://www.youtube.com/watch?v=83o9iYDCLQ0',
@@ -148,7 +148,7 @@ export const Musics = [
   {
     title: 'Telefona bax (demo)',
     artist: 'VLXX x Xxtasy',
-    src: 'https://32.filelu.com/d/rb3nlwdnjqqnjjtanom5mivwt2xberw7p66czc5b3tencrmlkvefsixt5zgr2l55h2nbtkn3/audio13.mp3',
+    src: 'https://download1496.mediafire.com/8zjs90l2ewsg/p5pmqzetb8gpe6f/audio13.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -160,7 +160,7 @@ export const Musics = [
   {
     title: 'Ulduzlararası (demo)',
     artist: 'VLXX x Xxtasy',
-    src: 'https://32.filelu.com/d/rb3nnwdnjqqnjjtanom4qlxltnwjdftk3n5mzppjs7kyweutdaaewrnqytcr6ibojeyjcdsz/audio14.mp3',
+    src: 'https://download939.mediafire.com/63innp5brzdg/az7j35heefv4tzc/audio14.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -172,7 +172,7 @@ export const Musics = [
   {
     title: 'Next Location',
     artist: 'VLXX',
-    src: 'https://32.filelu.com/d/rb3npwdnjqqnjjtanom52zpqsghrufo65rxexnxmpxnmkb2pot34cmvrdocrmavqzcf2ar5q/audio15.mp3',
+    src: 'https://download1512.mediafire.com/irgmprwemwdg/xk1vg5lpl0vjjew/audio15.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -184,7 +184,7 @@ export const Musics = [
   {
     title: 'Kim var orda? (demo)',
     artist: 'VLXX x Nat',
-    src: 'https://32.filelu.com/d/rb3krwdnjqqnjjtanom5s35uspwj27tuzdyfmm2prksoytys3treuctpa3btn27b3hi2rc53/audio16.mp3',
+    src: 'https://download1515.mediafire.com/xnmyki8wj4ug/bywisuc8piilr2a/audio16.mp3',
     progress: 0,
     length: 0,
     youtube: '',
@@ -196,7 +196,7 @@ export const Musics = [
   {
     title: 'Bad Wave (demo)',
     artist: 'Xxtasy x VLXX',
-    src: 'https://32.filelu.com/d/rb3ktwdnjqqnjjtanom5e7xgyzlguf6oa67vdxpylqgsvavfezpild44rm6cr4aekzsdczvj/audio17.mp3',
+    src: 'https://download1339.mediafire.com/o0lfdqzslxdg/kwih82awmvevk7n/audio17.mp3',
     progress: 0,
     length: 0,
     youtube: '',
