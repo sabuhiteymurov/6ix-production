@@ -2,7 +2,7 @@ export const Musics = [
   {
     title: 'FCK IT',
     artist: 'VLXX x Xxtasy',
-    src: 'https://download1489.mediafire.com/m7sn24ffuofg/visam6ffxr45s6h/audio1.mp3',
+    src: 'https://www.mediafire.com/file/visam6ffxr45s6h/audio1.mp3',
     progress: 0,
     length: 0,
     youtube: '',

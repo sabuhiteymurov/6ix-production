@@ -252,3 +252,15 @@
   font-weight: 500;
   letter-spacing: 1px;
 }
+
+.warning {
+  font-size: 1.7rem;
+  color: $color-white;
+  a {
+    color: $color-white;
+    cursor: pointer;
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+}

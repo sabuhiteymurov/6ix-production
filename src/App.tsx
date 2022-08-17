@@ -116,6 +116,17 @@ function App() {
         />
 
         <h2 className='home-title'>Projects</h2>
+        <p className='warning'>
+          If the player doesn't download any songs, please visit{' '}
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://www.mediafire.com/folder/rwpasprfq9fl3/6ix.netlify.app'
+          >
+            here
+          </a>{' '}
+          for projects. We apologize for the inconvenience.
+        </p>
         <div className='home-player-container'>
           <div className='music-player-container'>
             <button
