@@ -1,3 +1,4 @@
+import React from 'react';
 import './style/main.scss';
 import backgroundImage from './img/hero-background.jpg';
 import { useEffect, useRef, useState } from 'react';
@@ -9,7 +10,7 @@ import MusicList from './MusicList';
 // @ts-ignore
 import uuid from 'react-uuid';
 
-function App() {
+const App = React.memo(() => {
   const audioEl = useRef(null)!;
   const currentYear = new Date().getFullYear();
   const [musics, setMusics] = useState(Musics);
@@ -188,6 +189,6 @@ function App() {
       </main>
     </>
   );
-}
+});
 
 export default App;
