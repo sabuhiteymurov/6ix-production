@@ -116,7 +116,7 @@ function App() {
         />
 
         <h2 className='home-title'>Projects</h2>
-        <p className='warning'>
+        {/* <p className='warning'>
           If the player doesn't download any songs, please visit{' '}
           <a
             target='_blank'
@@ -126,7 +126,7 @@ function App() {
             here
           </a>{' '}
           for projects. We apologize for the inconvenience.
-        </p>
+        </p> */}
         <div className='home-player-container'>
           <div className='music-player-container'>
             <button
@@ -152,10 +152,7 @@ function App() {
                 </span>
                 <span className='music-player-container_separator'> / </span>
                 <span className='music-player-container_duration'>
-                  {'0' +
-                    Math.floor(musicDuration / 60) +
-                    ':' +
-                    Math.floor(musicDuration % 60)}
+                  {currentMusic.duration}
                 </span>
               </div>
             </div>
