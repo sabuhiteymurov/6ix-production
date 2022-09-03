@@ -78,6 +78,8 @@ const MusicList: React.FC<{
             dispatch({ type: 'showYoutubeModal' });
           }}
           onMouseLeave={() => dispatch({ type: 'closeYoutubeModal' })}
+          target='_blank'
+          rel='noreferrer'
         >
           <AiFillYoutube className='music-icon icon-youtube' />
           {state.showYoutubeModal && (
@@ -93,6 +95,8 @@ const MusicList: React.FC<{
             dispatch({ type: 'showSpotifyModal' });
           }}
           onMouseLeave={() => dispatch({ type: 'closeSpotifyModal' })}
+          target='_blank'
+          rel='noreferrer'
         >
           <FaSpotify className='music-icon icon-spotify' />
           {state.showSpotifyModal && (
@@ -107,6 +111,8 @@ const MusicList: React.FC<{
             dispatch({ type: 'showItunesModal' });
           }}
           onMouseLeave={() => dispatch({ type: 'closeItunesModal' })}
+          target='_blank'
+          rel='noreferrer'
         >
           <AiFillApple className='music-icon icon-itunes' />
           {state.showItunesModal && (
@@ -121,6 +127,8 @@ const MusicList: React.FC<{
             dispatch({ type: 'showSoundCloudModal' });
           }}
           onMouseLeave={() => dispatch({ type: 'closeSoundCloudModal' })}
+          target='_blank'
+          rel='noreferrer'
         >
           <GrSoundcloud className='music-icon icon-soundcloud' />
           {state.showSoundCloudModal && (
