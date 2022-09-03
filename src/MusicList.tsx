@@ -71,7 +71,7 @@ const MusicList: React.FC<{
       </div>
       <div className='music-icon-container'>
         <a
-          href={music.youtube ? music.youtube : '#'}
+          href={music.youtube}
           aria-disabled={music.youtube ? false : true}
           onMouseOver={() => {
             if (music.youtube) return;
@@ -88,7 +88,7 @@ const MusicList: React.FC<{
         </a>
 
         <a
-          href={music.spotify ? music.spotify : '#'}
+          href={music.spotify}
           aria-disabled={music.spotify ? false : true}
           onMouseOver={() => {
             if (music.spotify) return;
@@ -104,7 +104,7 @@ const MusicList: React.FC<{
           )}
         </a>
         <a
-          href={music.itunes ? music.itunes : '#'}
+          href={music.itunes}
           aria-disabled={music.itunes ? false : true}
           onMouseOver={() => {
             if (music.itunes) return;
@@ -120,7 +120,7 @@ const MusicList: React.FC<{
           )}
         </a>
         <a
-          href={music.soundcloud ? music.soundcloud : '#'}
+          href={music.soundcloud}
           aria-disabled={music.soundcloud ? false : true}
           onMouseOver={() => {
             if (music.soundcloud) return;
