@@ -197,6 +197,10 @@
       gap: 1rem;
       position: absolute;
       right: 12rem;
+
+      a {
+        position: relative;
+      }
     }
     a {
       &:active,
@@ -263,4 +267,15 @@
       box-shadow: none !important;
     }
   }
+}
+
+// Link not available modal
+.not-available-modal {
+  position: absolute;
+  top: 2.2rem;
+  left: -1.5rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: $color-white;
+  background-color: #6a6f76;
 }
