@@ -110,7 +110,7 @@ const MusicList: React.FC<{
         >
           <AiFillApple className='music-icon icon-itunes' />
           {state.showItunesModal && (
-            <span className='not-available-modal'>Not available</span>
+            <span className='not-available-modal'>Not Available</span>
           )}
         </a>
         <a
