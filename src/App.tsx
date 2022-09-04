@@ -176,9 +176,9 @@ const App = React.memo(() => {
                 key={uuid()}
                 music={music}
                 setCurrentMusic={setCurrentMusic}
+                currentMusic={currentMusic}
                 audioEl={audioEl}
                 setIsPlaying={setIsPlaying}
-                isPlaying={isPlaying}
               />
             ))}
           </div>

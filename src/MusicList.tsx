@@ -8,8 +8,8 @@ const MusicList: React.FC<{
   setCurrentMusic: any;
   audioEl: any;
   setIsPlaying: any;
-  isPlaying: any;
-}> = ({ music, setCurrentMusic, audioEl, setIsPlaying, isPlaying }) => {
+  currentMusic: any;
+}> = ({ music, setCurrentMusic, audioEl, setIsPlaying, currentMusic }) => {
   const initialState = {
     showYoutubeModal: false,
     showSpotifyModal: false,
@@ -53,7 +53,9 @@ const MusicList: React.FC<{
 
   return (
     <article
-      className='music'
+      className={`music ${
+        currentMusic.src === music.src ? 'active-music' : ''
+      }`}
       onClick={() => {
         setCurrentMusic(music);
         // @ts-ignore
@@ -62,7 +64,7 @@ const MusicList: React.FC<{
         setTimeout(() => {
           // @ts-ignore
           audioEl.current.play();
-        }, 1000);
+        }, 500);
       }}
     >
       <div className='music-title-container'>
@@ -116,7 +118,7 @@ const MusicList: React.FC<{
         >
           <AiFillApple className='music-icon icon-itunes' />
           {state.showItunesModal && (
-            <span className='not-available-modal'>Not Available</span>
+            <span className='not-available-modal'>Not available</span>
           )}
         </a>
         <a
